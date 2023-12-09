@@ -10,6 +10,9 @@ public class SumOfNNaturalNumbers {
         int num = sc.nextInt();
         int sum = (num * (num+1))/2;
         System.out.println("Sum of the first "+num+" natural numbers is : "+sum);
-
+        double avg = sum/(double) num;
+        System.out.println("Average of the first "+num+" natural numbers is : "+sum);
+        
+        
     }
 }
