@@ -18,7 +18,7 @@ public class AverageOfThreeNumbers {
         float sum = num1 + num2 + num3;
         float avg = sum/3;
 
-        System.out.println("The Sum     of  "+num1+","+num2+" and "+num3+" is : " + sum);
-        System.out.println("The Average of  "+num1+","+num2+" and "+num3+" is : " + avg);
+        System.out.println("The Sum     of  "+num1+","+num2+" and "+num3+" is : " + Math.round(sum));
+        System.out.println("The Average of  "+num1+","+num2+" and "+num3+" is : " + Math.round(avg));
     }
 }
