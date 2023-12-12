@@ -13,5 +13,11 @@ public class MultiplicationOfTable {
             System.out.printf("%s * %s = %s%n",num,i,num*i);
         }
 
+        System.out.println("-".repeat(50));
+
+        for (int i=10;i>1;i--) {
+            System.out.printf("%s * %s = %s%n",num,i,num*i);
+        }
+
     }
 }
