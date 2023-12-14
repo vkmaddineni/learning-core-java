@@ -3,7 +3,7 @@ package core.careerit.day3;
 import java.util.Scanner;
 
 public class MultiplicationOfTable {
-    public static void main(String[] args){
+    public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the Number : ");
@@ -18,6 +18,7 @@ public class MultiplicationOfTable {
         for (int i=10;i>1;i--) {
             System.out.printf("%s * %s = %s%n",num,i,num*i);
         }
+
 
     }
 }
